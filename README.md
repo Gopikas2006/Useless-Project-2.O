@@ -37,7 +37,7 @@ For Software:
 ### Implementation
 For Software:
 # Run
-Run as website.
+Run as website: https://gopikas2006.github.io/Useless-Project-2.O/
 
 ### Project Documentation
 For Software:
