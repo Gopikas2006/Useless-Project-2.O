@@ -13,7 +13,7 @@
 - Member 2: Gopika S - Rajiv Gandhi Institute Of Technology,Kottayam
 
 ### Project Description
-This website creates a hilarious biography website where users can create their own funny persona! 
+This website creates a hilarious biography where users can create their own funny persona! 
 This will include amusing animal profile pics, quirky jobs, and comical homes.And also a silly fun fact about user.
 Users can choose profile image ,their Home image,Gender identity and a silly profession from hilarious list give for each. 
 
