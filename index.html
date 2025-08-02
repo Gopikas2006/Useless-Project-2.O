@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎭 The Ridiculous Biography Generator 🎭</h1>
+            <p>Create your hilariously absurd alter ego!👻</p>
+            <p>Fake biography??..This time more funnier😆</p>
+        </div>
+
+        <div class="card">
+            <div id="form-section">
+                <h2 class="card-title">Build Your Ridiculous Persona</h2>
+                <p class="card-description">Fill in the details below to generate your wonderfully weird biography</p>
+
+                <!-- Personal Info -->
+                <div class="form-section">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Boring Real Name</label>
+                            <input type="text" id="name" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Age of Wisdom</label>
+                            <input type="number" id="age" placeholder="25">
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender Identity</label>
+                            <select id="gender">
+                                <option value="">Choose your vibe</option>
+                                <option value="magnificent human">Magnificent Male</option>
+                                <option value="legendary being">Legendary Female</option>
+                                <option value="cosmic entity">Cosmic Entity</option>
+                                <option value="mysterious creature">Mysterious Creature</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="separator"></div>
+
+                <!-- Animal Selection -->
+                <div class="form-section">
+                    <h3 class="section-title">Choose Your Spirit Animal Profile Pic</h3>
+                    <div class="image-grid" id="animal-grid">
+                        <!-- Animals will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="separator"></div>
+
+                <!-- Job Selection -->
+                <div class="form-section">
+                    <div class="form-group">
+                        <label for="job" class="section-title">Your Prestigious Career</label>
+                        <select id="job">
+                            <option value="">Select your calling in life</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="separator"></div>
+
+                <!-- Building Selection -->
+                <div class="form-section">
+                    <h3 class="section-title">Choose Your Magnificent Dwelling</h3>
+                    <div class="image-grid" id="building-grid">
+                        <!-- Buildings will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <button class="generate-btn" onclick="generateBiography()">
+                    🎪 Generate My Ridiculous Biography! 🎪
+                </button>
+            </div>
+
+            <div id="biography-section" class="biography-display">
+                <div style="text-align: center;">
+                    <img id="profile-image" class="profile-pic" src="/placeholder.svg" alt="Profile">
+                    <h2 id="alias-name" class="alias-title"></h2>
+                    <div id="job-title" class="job-badge"></div>
+                </div>
+                
+                <div class="biography-content">
+                    <img id="home-image" class="home-image" src="/placeholder.svg" alt="Home">
+                    <div id="biography-text" class="biography-text"></div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="btn btn-primary" onclick="resetForm()">
+                        🔄 Create Another Masterpiece
+                    </button>
+                    <button class="btn btn-secondary" onclick="copyBiography()">
+                        📋 Copy Biography
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>    
+</body>
+</html>
