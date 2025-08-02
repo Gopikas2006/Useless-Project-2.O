@@ -29,16 +29,15 @@ By developing a website that creates a funny biography personalised and made spe
 For Software:
 - Languages used : Javascript
 - Frameworks used : HTML, CSS
-- [Libraries used]
 - Tools used: Visual Studio code,OpenAI 
 
 
 
 ### Implementation
-For Software:
 # Run
 Run as website: https://gopikas2006.github.io/Useless-Project-2.O/
 
+##Project Documentation
 # Screenshots 
 Screenshot1: Home_Page_Upper_Half
 *This image shows upper half of home page where page title,heading and description is displayed.After description there are input boxes for name,age and gender.Then a profile image selection container*
